@@ -1,4 +1,4 @@
-<h1 align="center"> Anoto App</h1>
+<h1 align="center">Mobile App Anoto</h1>
 
 ## Installation
 
