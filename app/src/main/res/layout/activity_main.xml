@@ -82,4 +82,16 @@
 
     </FrameLayout>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="148dp"
+        android:layout_height="77dp"
+        android:text="New Task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
