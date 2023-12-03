@@ -48,6 +48,23 @@
             android:src="@drawable/ic_logo"
             tools:src="@tools:sample/avatars"
             tools:srcCompat="@drawable/ic_logo" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:text="delete"
+            />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="40dp"
+            android:text="edit" />
     </FrameLayout>
 
     <FrameLayout
