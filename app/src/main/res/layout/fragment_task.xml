@@ -12,9 +12,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment"
+        android:text="page create task"
         tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="261dp" />
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/button2"
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:text="back"
         tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="631dp" />
+        tools:layout_editor_absoluteY="631dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -30,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="new task"
         tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="631dp" />
+        tools:layout_editor_absoluteY="631dp"
+        tools:ignore="MissingConstraints"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
