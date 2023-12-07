@@ -84,20 +84,4 @@
 
     </FrameLayout>
 
-    <Button
-        android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="84dp"
-        android:layout_height="47dp"
-        android:background="@color/gray_400"
-        android:text="+"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:shape='oval'
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.911"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
