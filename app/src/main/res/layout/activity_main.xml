@@ -7,82 +7,16 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/encode_sans"
-        android:text="Tasks"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="327dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="65dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="360dp"
+        android:layout_height="640dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052">
-
-        <TextView
-            android:id="@+id/modern_ligh"
-            android:layout_width="135dp"
-            android:layout_height="18dp"
-            android:layout_marginLeft="80dp"
-            android:gravity="top"
-            android:text="Task 1 initial"
-            android:textSize="16sp" />
-
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:scaleType="fitStart"
-            android:src="@drawable/ic_logo"
-            tools:src="@tools:sample/avatars"
-            tools:srcCompat="@drawable/ic_logo" />
-
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout2"
-        android:layout_width="327dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="65dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234">
-
-        <TextView
-            android:id="@+id/modern_ligh3"
-            android:layout_width="135dp"
-            android:layout_height="18dp"
-            android:layout_marginLeft="80dp"
-            android:gravity="top"
-            android:text="Task 2 initial"
-            android:textSize="16sp" />
-
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:scaleType="fitStart"
-            android:src="@drawable/ic_logo"
-            tools:src="@tools:sample/avatars"
-            tools:srcCompat="@drawable/ic_logo" />
-
-    </FrameLayout>
+        app:layout_constraintVertical_bias="0.516"></FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
