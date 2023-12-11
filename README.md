@@ -11,7 +11,7 @@ $ git clone https://github.com/MatheusAlvesPereira/Anoto-App.git
 2. Kotlin Setup: [Kotlin Docs.](https://kotlinlang.org/docs/getting-started.html) 
 
 3. Run Project: <br/>
-![Captura de tela 2023-12-03 162950](https://github.com/MatheusAlvesPereira/Anoto-App/assets/99885299/e5360191-170b-4a5d-a57b-bf134fa84573)
+![Captura de tela 2023-12-11 150849](https://github.com/MatheusAlvesPereira/Anoto-App/assets/99885299/f6134235-cb1a-441e-a34b-1b1dc7c9733f)
 
 
 

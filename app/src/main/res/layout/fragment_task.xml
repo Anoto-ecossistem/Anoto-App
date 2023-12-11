@@ -6,15 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".TaskFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="page create task"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="261dp"
-        tools:ignore="MissingConstraints"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/tasks" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
