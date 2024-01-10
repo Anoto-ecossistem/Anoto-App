@@ -8,7 +8,7 @@
 $ git clone https://github.com/MatheusAlvesPereira/Anoto-App.git
 ```
 
-this project use JDK 17 Eclipse Temurin Version 17.0.9
+this project use JDK 17 Eclipse Version 17.0.9
 
 2. Kotlin Setup: [Kotlin Docs.](https://kotlinlang.org/docs/getting-started.html) 
 
