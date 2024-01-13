@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "896633459388",
+    "project_id": "anoto-app",
+    "storage_bucket": "anoto-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896633459388:android:ab2ad6e3a56918a02e36b9",
+        "android_client_info": {
+          "package_name": "com.example.anotoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACh3FsW8D8FEShvZBCKYsviRckvCG9Hd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
