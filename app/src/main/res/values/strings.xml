@@ -10,4 +10,5 @@
     <string name="tasks">task</string>
     <string name="Home">home</string>
     <string name="Create">Create</string>
+    <string name="lastname">lastname</string>
 </resources>

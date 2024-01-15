@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,24 +17,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="lastname"
-            android:textSize="16dp" />
+            android:text="@string/lastname"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/btnDelete"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:layout_alignParentRight="true"
-            android:drawableLeft="@drawable/ic_task"
-            android:padding="5dp" />
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            app:drawableStartCompat="@drawable/ic_task" />
 
         <TextView
             android:id="@+id/btnEdit"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:layout_marginRight="2dp"
-            android:layout_toLeftOf="@+id/btnDelete"
-            android:drawableLeft="@android:drawable/ic_menu_edit"
-            android:padding="5dp" />
+            android:layout_marginEnd="2dp"
+            android:layout_toStartOf="@+id/btnDelete"
+            android:padding="5dp"
+            app:drawableLeftCompat="@android:drawable/ic_menu_edit" />
     </RelativeLayout>
 </FrameLayout>
